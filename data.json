@@ -1,0 +1,306 @@
+{
+  "subjects": {
+    "mathematics": {
+      "name": "Mathematics",
+      "description": "Algebra, Calculus, Geometry, Trigonometry, and more",
+      "iconName": "FaSquareRootAlt",
+      "color": "#2563eb",
+      "levels": ["grade10", "grade11", "grade12", "university"]
+    },
+    "physics": {
+      "name": "Physics",
+      "description": "Mechanics, Electromagnetism, Thermodynamics, and more",
+      "iconName": "FaAtom",
+      "color": "#9333ea",
+      "levels": ["grade10", "grade11", "grade12", "university"]
+    },
+    "chemistry": {
+      "name": "Chemistry",
+      "description": "Organic Chemistry, Inorganic Chemistry, Physical Chemistry",
+      "iconName": "FaFlask",
+      "color": "#16a34a",
+      "levels": ["grade10", "grade11", "grade12", "university"]
+    }
+  },
+  "resources": {
+    "mathematics": {
+      "pastPapers": {
+        "resource1": {
+          "title": "Grade 12 Mathematics Past Paper 2024",
+          "description": "Official past paper with solutions and marking scheme",
+          "type": "PDF",
+          "isPremium": true,
+          "downloadUrl": "/resources/mathematics/grade12_2024_past_paper.pdf",
+          "thumbnailUrl": "/images/thumbnails/math_paper_2024.jpg",
+          "dateAdded": "2025-01-15T08:30:00Z",
+          "size": "1.2MB"
+        },
+        "resource2": {
+          "title": "Grade 11 Mathematics Practice Questions",
+          "description": "100 practice questions covering all syllabus topics",
+          "type": "PDF",
+          "isPremium": false,
+          "downloadUrl": "/resources/mathematics/grade11_practice_questions.pdf",
+          "thumbnailUrl": "/images/thumbnails/math_practice.jpg",
+          "dateAdded": "2025-02-10T10:15:00Z",
+          "size": "850KB"
+        },
+        "resource3": {
+          "title": "Mathematics Formula Sheet",
+          "description": "Complete formula reference for grades 10-12",
+          "type": "PDF",
+          "isPremium": false,
+          "downloadUrl": "/resources/mathematics/formula_sheet.pdf",
+          "thumbnailUrl": "/images/thumbnails/math_formulas.jpg",
+          "dateAdded": "2025-03-05T14:20:00Z",
+          "size": "320KB"
+        }
+      },
+      "videoTutorials": {
+        "resource1": {
+          "title": "Calculus Fundamentals",
+          "description": "Introduction to limits, derivatives and integrals",
+          "type": "Video",
+          "isPremium": true,
+          "videoUrl": "/resources/mathematics/videos/calculus_fundamentals.mp4",
+          "thumbnailUrl": "/images/thumbnails/calculus_video.jpg",
+          "duration": "45:22",
+          "dateAdded": "2025-01-20T09:00:00Z"
+        }
+      }
+    },
+    "physics": {
+      "pastPapers": {
+        "resource1": {
+          "title": "Grade 12 Physics Past Paper 2024",
+          "description": "Official past paper with solutions",
+          "type": "PDF",
+          "isPremium": true,
+          "downloadUrl": "/resources/physics/grade12_2024_past_paper.pdf",
+          "thumbnailUrl": "/images/thumbnails/physics_paper_2024.jpg",
+          "dateAdded": "2025-01-18T11:30:00Z",
+          "size": "1.5MB"
+        },
+        "resource2": {
+          "title": "Physics Formula Sheet",
+          "description": "Comprehensive list of physics formulas and constants",
+          "type": "PDF",
+          "isPremium": false,
+          "downloadUrl": "/resources/physics/formula_sheet.pdf",
+          "thumbnailUrl": "/images/thumbnails/physics_formulas.jpg",
+          "dateAdded": "2025-02-12T13:45:00Z",
+          "size": "450KB"
+        }
+      }
+    },
+    "chemistry": {
+      "pastPapers": {
+        "resource1": {
+          "title": "Grade 12 Chemistry Past Paper 2024",
+          "description": "Official past paper with detailed solutions",
+          "type": "PDF",
+          "isPremium": true,
+          "downloadUrl": "/resources/chemistry/grade12_2024_past_paper.pdf",
+          "thumbnailUrl": "/images/thumbnails/chemistry_paper_2024.jpg",
+          "dateAdded": "2025-01-22T10:00:00Z",
+          "size": "1.4MB"
+        }
+      },
+      "practiceTests": {
+        "resource1": {
+          "title": "Organic Chemistry Quiz",
+          "description": "Test your knowledge of organic chemistry concepts",
+          "type": "Quiz",
+          "isPremium": false,
+          "questionCount": 25,
+          "estimatedTime": "30 minutes",
+          "dateAdded": "2025-03-01T15:30:00Z"
+        }
+      }
+    }
+  },
+  "users": {
+    "tutors": {
+      "tutor1": {
+        "fullName": "Nkopo Chaole",
+        "email": "nkopo@tutorme.com",
+        "phone": "+27701234567",
+        "bio": "A Lab Scientist at UCT with a Master's in Materials Engineering, I specialize in Mathematics and Chemistry. With 6 years of tutoring experience, I focus on personalized learning plans and exam preparation, leveraging my STEM expertise to simplify complex concepts.",
+        "subjects": ["mathematics", "chemistry"],
+        "role": "tutor",
+        "createdAt": "2024-01-10T08:00:00Z",
+        "hourlyRate": 150,
+        "rating": 4.9,
+        "completedSessions": 243,
+        "profilePicture": "/images/tutors/nkopo_chaole.jpg",
+        "availability": {
+          "monday": ["14:00-16:00", "18:00-20:00"],
+          "tuesday": ["14:00-16:00", "18:00-20:00"],
+          "wednesday": ["14:00-16:00"],
+          "thursday": ["14:00-16:00", "18:00-20:00"],
+          "friday": ["14:00-16:00"],
+          "saturday": ["10:00-14:00"],
+          "sunday": []
+        },
+        "qualifications": [
+          "Master's in Materials Engineering, UCT",
+          "BSc in Chemistry, UCT",
+          "Certificate in Advanced Mathematics"
+        ],
+        "referralCode": "NKOP4567"
+      },
+      "tutor2": {
+        "fullName": "Khethisa Lebakeng",
+        "email": "khethisa@tutorme.com",
+        "phone": "+27707654321",
+        "bio": "A Lecturer in Mechanical Engineering at UCT with a Master's in Materials Engineering, I teach Mathematics and Physics. With 6 years of tutoring, I use real-life examples and interactive methods to make learning engaging and effective for students at all levels.",
+        "subjects": ["mathematics", "physics"],
+        "role": "tutor",
+        "createdAt": "2024-01-10T09:30:00Z",
+        "hourlyRate": 160,
+        "rating": 4.8,
+        "completedSessions": 215,
+        "profilePicture": "/images/tutors/khethisa_lebakeng.jpg",
+        "availability": {
+          "monday": ["16:00-20:00"],
+          "tuesday": ["16:00-20:00"],
+          "wednesday": ["16:00-20:00"],
+          "thursday": ["16:00-20:00"],
+          "friday": ["16:00-18:00"],
+          "saturday": ["09:00-12:00"],
+          "sunday": []
+        },
+        "qualifications": [
+          "Master's in Materials Engineering, UCT",
+          "BSc in Mechanical Engineering, UCT",
+          "Certificate in Physics Education"
+        ],
+        "referralCode": "KHET5432"
+      }
+    },
+    "students": {
+      "student1": {
+        "fullName": "Thabiso Mokone",
+        "email": "thabiso@example.com",
+        "phone": "+27721234567",
+        "subjects": ["mathematics", "physics"],
+        "role": "student",
+        "createdAt": "2025-01-15T10:30:00Z",
+        "freeResourcesAccessed": 2,
+        "subscriptionPlan": "free",
+        "referralCode": "THAB9876",
+        "referredBy": null,
+        "schoolName": "Cape Town High School",
+        "grade": "12"
+      },
+      "student2": {
+        "fullName": "Lerato Khoele",
+        "email": "lerato@example.com",
+        "phone": "+27731234567",
+        "subjects": ["chemistry", "physics"],
+        "role": "student",
+        "createdAt": "2025-02-10T14:45:00Z",
+        "freeResourcesAccessed": 1,
+        "subscriptionPlan": "premium",
+        "subscriptionStartDate": "2025-02-15T08:00:00Z",
+        "subscriptionEndDate": "2025-05-15T08:00:00Z",
+        "referralCode": "LERA8765",
+        "referredBy": "THAB9876",
+        "schoolName": "Pinelands High School",
+        "grade": "11"
+      },
+      "student3": {
+        "fullName": "Mpho Ndlovu",
+        "email": "mpho@example.com",
+        "phone": "+27741234567",
+        "subjects": ["mathematics", "chemistry"],
+        "role": "student",
+        "createdAt": "2025-02-20T09:15:00Z",
+        "freeResourcesAccessed": 0,
+        "subscriptionPlan": "free",
+        "referralCode": "MPHO7654",
+        "referredBy": null,
+        "schoolName": "Westerford High School",
+        "grade": "10"
+      }
+    }
+  },
+  "sessions": {
+    "session1": {
+      "tutorId": "tutor1",
+      "studentId": "student1",
+      "subject": "mathematics",
+      "topic": "Calculus - Integration",
+      "date": "2025-05-15T14:00:00Z",
+      "duration": 90,
+      "status": "scheduled",
+      "price": 225,
+      "notes": "Will cover integration by parts and substitution"
+    },
+    "session2": {
+      "tutorId": "tutor2",
+      "studentId": "student2",
+      "subject": "physics",
+      "topic": "Electromagnetism",
+      "date": "2025-05-18T10:00:00Z",
+      "duration": 90,
+      "status": "scheduled",
+      "price": 240,
+      "notes": "Focus on electromagnetic induction"
+    },
+    "session3": {
+      "tutorId": "tutor1",
+      "studentId": "student3",
+      "subject": "chemistry",
+      "topic": "Organic Chemistry - Alcohols",
+      "date": "2025-05-10T15:30:00Z",
+      "duration": 120,
+      "status": "completed",
+      "price": 300,
+      "notes": "Covered properties and reactions of alcohols",
+      "feedback": {
+        "rating": 5,
+        "comment": "Very helpful session, explained concepts clearly"
+      }
+    }
+  },
+  "subscriptionPlans": {
+    "free": {
+      "name": "Free Plan",
+      "price": 0,
+      "description": "Access to limited resources",
+      "features": [
+        "2 free resources per subject",
+        "Basic progress tracking",
+        "Community forum access"
+      ],
+      "resourceLimit": 2
+    },
+    "basic": {
+      "name": "Basic Plan",
+      "price": 99,
+      "period": "month",
+      "description": "Essential learning resources",
+      "features": [
+        "Unlimited access to past papers",
+        "5 practice tests per month",
+        "Email support"
+      ],
+      "resourceLimit": 50
+    },
+    "premium": {
+      "name": "Premium Plan",
+      "price": 199,
+      "period": "month",
+      "description": "Complete learning package",
+      "features": [
+        "Unlimited access to all resources",
+        "Unlimited practice tests",
+        "Priority booking with tutors",
+        "10% discount on tutoring sessions",
+        "24/7 priority support"
+      ],
+      "resourceLimit": null
+    }
+  }
+}
